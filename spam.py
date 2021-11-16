@@ -5,13 +5,13 @@ import time, re, sys
 from requests import Session
 s = Session()
 
-print("Spam Call by Xractz - IndoSec\nThis tool delays 5 seconds per spam so as not to limit!\nUse Country Code (ex: 62xxxxx29)")
+print("Spam Call by Xractz - IndoSec\nThis tool delays 5 seconds per spam so as not to limit!\nUse Country Code (ex: 6281293235213)")
 try:
-	no = int(input("No    : "))
-	jml = int(input("Count : "))
+	no = int(input("No    : 6281293235213"))
+	jml = int(input("Count : 10"))
 	print()
 except:
-	print("\n\t* Only Number *")
+	print("\n\t* Only Number *6281293235213")
 	sys.exit()
 	
 url = "https://www.citcall.com/demo/misscallapi.php"
